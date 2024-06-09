@@ -1,0 +1,37 @@
+.list__todo {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.activ {
+    text-decoration: line-through;
+}
+.list__todo > p {
+    min-width: 300px;
+    height: 30px;
+    background-color: #b8ffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo__input {
+    min-width: 300px;
+    height: 30px;
+    background-color: #b8ffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elementsPanel {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.icon {
+    cursor: pointer;
+    color: rgba(19, 128, 252, 0.952);
+}
